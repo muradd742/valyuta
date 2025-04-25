@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+    <div class="header-icon">
+    <img src="Asset 1@3x 1.svg" alt="">
+    </div>
+    <div  class="header-centre">
+        <p>БАНК</p>
+        <p>БИЗНЕС</p>
+        <p>ИНВЕСТИЦИИ</p>
+        <p>СТРАХОВАНИЕ</p>
+        <p>МОБАЙЛ</p>
+        <p>ПУТЕШЕСТВИЯ</p>
+        <p>РАЗВЛЕЧЕНИЯ</p>
+    </div>
+    <div class="header-right">ВОЙТИ</div>
+</header>
+<section>
+<div class="main-section">
+    <h1>Конвертер валют онлайн</h1>
+    <div class="converter-container">
+        <div class="section">
+            <div class="section-title">У меня есть</div>
+            <div class="currency-options">
+                <div class="currency-option selected">RUB</div>
+                <div class="currency-option">USD</div>
+                <div class="currency-option">EUR</div>
+                <div class="currency-option selectedd">GBP</div>
+            </div>
+            <div class="amount-box">
+                <input type="text" class="amount-input" value="5000">
+                <div class="conversion-rate">1 RUB = 0.0135 USD</div>
+              </div>   
+        </div>
+
+        <div class="section">
+            <div class="section-title">Хочу приобрести</div>
+            <div class="currency-options">
+                <div class="currency-option">RUB</div>
+                <div class="currency-option selected">USD</div>
+                <div class="currency-option">EUR</div>
+                <div class="currency-option">GBP</div>
+            </div>
+            <div class="amount-box">
+            <input type="text" class="amount-input" value="5000">
+            <div class="conversion-rate">1 USD = 73.8896 RUB</div>
+                </div>
+        </div>
+    </div>
+    <div id="offline-alert" >İnternet yoxdur!
+    </div>
+</div>
+</section>
+<script src="./app.js"></script>
+</body>
+</html>
